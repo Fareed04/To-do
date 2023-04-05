@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Sky text;
+    src: url(../fonts/Sky\ Text\ Regular.ttf);
+}
+body {
+    font-family: Sky text;
+    background-color:#b5c19f;
+    text-align: center;
+}
+h1{
+    color: #674747;
+}
+.canvas {
+    background-color: #F5EFE6;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    border: dashed 3px #a9a9a9;
+    display: inline-block;
+    text-align: justify;
+    box-shadow: 10px 10px 10px #9d9696;
+}
+.canvas svg:nth-of-type(1){
+    width: 50px;
+    height: 50px;
+    margin-right: 280px;
+}
+.canvas svg:nth-of-type(2){
+    width: 51px;
+    height: 51px;
+}
+ol {
+    margin: 50px 10px;
+    list-style: none;
+    font-size: 1.6rem;
+    color: #674747;
+    padding-left: 10px;
+}
+li{
+    margin: 15px 10px;
+}
+.icons{
+    position: fixed;
+    bottom: 5rem;
+    right: 8.2rem;
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+}
+
